@@ -21,13 +21,13 @@
 }
 
 #inputLine {
-  padding: 2px;
-  border-radius: 2px;
+  padding: 6px;
+  border-radius: 8px;
   font-size: 20px;
   selection-color: #FFFFFF;
   selection-background-color: #ff6a00;
   background-color: #bb06080d;
-  color: #bfc3cd
+  color: #bfc3cd;
 }
 
 #settingsButton {
