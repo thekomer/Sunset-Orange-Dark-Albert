@@ -1,0 +1,97 @@
+/*
+ * Author: Komer <thekomer@gmail.com>
+ *
+ * Check http://doc.qt.io/qt-5/stylesheet-syntax.html especially the subtopics:
+ * The Style Sheet Syntax (http://doc.qt.io/qt-5/stylesheet-syntax.html)
+ * Qt Style Sheets Reference (http://doc.qt.io/qt-5/stylesheet-reference.html)
+ */
+* {
+  border: none;
+  color : #bfc3cd;
+  background-color: #bb0e111d;
+}
+
+#frame {
+  padding: 6px;
+  border-radius: 12px;
+  /* background-color: #0e111d;*/
+  border: 1px solid #ff6a00;
+  min-width: 640px;
+  max-width: 640px;
+}
+
+#inputLine {
+  padding: 2px;
+  border-radius: 2px;
+  font-size: 20px;
+  selection-color: #FFFFFF;
+  selection-background-color: #ff6a00;
+  background-color: #bb06080d;
+  color: #bfc3cd
+}
+
+#settingsButton {
+  color: #ff6a00;
+  background-color: #bb0e111d;
+  padding: 4px;
+  margin: 6px 6px 0px 0px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 10px;
+  min-width:13px;
+  min-height:13px;
+  max-width:13px;
+  max-height:13px;
+}
+
+/********** ListViews **********/
+QListView QScrollBar:vertical  {
+  width: 3px;
+  background: transparent;
+}
+
+QListView QScrollBar::handle:vertical  {
+  background: #bb7d8087;
+  min-height: 24px;
+}
+
+QListView QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QListView QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+QListView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+  border: 0px;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+/********** actionList **********/
+QListView#actionList {
+  font-size: 20px;
+}
+
+QListView#actionList::item{
+  height: 24px;
+  margin: 3px;
+}
+
+QListView#actionList::item::selected{
+  background: qlineargradient(x1:0, x2:1, stop:0.0 #bb06080d, stop:0.5 #bb06080d, stop:1.0 #bb06080d );
+}
+
+/********** resultsList **********/
+QListView#resultsList {
+  icon-size: 24px;
+  font-size: 20px;
+  color: #bfc3cd;
+}
+
+QListView#resultsList::item{
+  height: 44px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+QListView#resultsList::item::selected{
+  color: #ffffff;
+  border-radius: 8px;
+  background: qlineargradient(x1:0, x2:1, stop:0.0 #ff6a00, stop:0.5 #ff6a00, stop:1.0 #ff6a00 );
+}
