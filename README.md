@@ -8,4 +8,4 @@ This is Simple Albert launcher theme compatible with my Sunset Orange dark GTK t
 
 ## Install
 
-Download release file and extract *.qss file to Albert themes folder (on my system it's /usr/share/albert/widgetsboxmodel/themes). Select it inside Albert preferences.
+Download release file and extract *.qss file to Albert themes folder (on my system it's /usr/share/albert/widgetsboxmodel/themes/). Select it inside Albert preferences.
