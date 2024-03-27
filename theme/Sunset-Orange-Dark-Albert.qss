@@ -32,7 +32,7 @@
 
 #settingsButton {
   color: #ff6a00;
-  background-color: #bb0e111d;
+  background-color: #4406080d;
   padding: 4px;
   margin: 6px 6px 0px 0px;
   border-top-right-radius: 6px;
