@@ -4,7 +4,7 @@ This is Simple Albert launcher theme compatible with my Sunset Orange dark GTK t
 
 ## Screenshots
 
-![Themed Albert screenshot](https://github.com/thekomer/Sunset-Orange-Dark-Albert/blob/main/Sunset-Orange-Dark-Albert-Screenshot.png)
+![Themed Albert screenshot](https://github.com/thekomer/Sunset-Orange-Dark-Albert/blob/main/media/Sunset-Orange-Dark-Albert-Screenshot.png)
 
 ## Install
 
