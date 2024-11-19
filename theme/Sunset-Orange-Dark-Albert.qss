@@ -15,7 +15,7 @@
   padding: 6px;
   border-radius: 12px;
   /* background-color: #0e111d;*/
-  border: 1px solid #ff6a00;
+  border: 1px solid #cc3700;
   min-width: 640px;
   max-width: 640px;
 }
@@ -25,13 +25,13 @@
   border-radius: 8px;
   font-size: 20px;
   selection-color: #FFFFFF;
-  selection-background-color: #ff6a00;
+  selection-background-color: #cc3700;
   background-color: #bb06080d;
   color: #bfc3cd;
 }
 
 #settingsButton {
-  color: #ff6a00;
+  color: #cc3700;
   background-color: #4406080d;
   padding: 4px;
   margin: 6px 6px 0px 0px;
@@ -93,5 +93,5 @@ QListView#resultsList::item{
 QListView#resultsList::item::selected{
   color: #ffffff;
   border-radius: 8px;
-  background: qlineargradient(x1:0, x2:1, stop:0.0 #ff6a00, stop:0.5 #ff6a00, stop:1.0 #ff6a00 );
+  background: qlineargradient(x1:0, x2:1, stop:0.0 #cc3700, stop:0.5 #cc3700, stop:1.0 #cc3700 );
 }
